@@ -585,9 +585,9 @@ const level20 = {
     story: "What is important to you? Is it to be successful? Is it to be happy? Do I take my path, or the path that is COACHed to me? You wonder to yourself. You try to clear your mind. You need to focus on what's here. Person, dress, jug, large wheel... These options... What do they mean?",
     images: [
         {
-            type: 'emoji',
-            content: '📝',
-            description: 'Word selection puzzle'
+            type: 'url',
+            content: 'src/img/coach.png',
+            description: ' puzzle'
         }
     ],
     puzzle: {
@@ -643,7 +643,7 @@ const level21 = {
         question: "Enter the six letters:",
         placeholder: "Enter the letters...",
         checkAnswer: function(answer) {
-            return answer.toLowerCase() === 'flflrf';
+            return answer.toLowerCase() === 'flflfrf';
         }
     }
 };

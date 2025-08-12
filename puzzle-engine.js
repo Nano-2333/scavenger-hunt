@@ -739,7 +739,9 @@ class PuzzleEngine {
                 { value: 'A', text: 'A' },
                 { value: 'B', text: 'B' },
                 { value: 'C', text: 'C' },
-                { value: 'D', text: 'D' }
+                { value: 'D', text: 'D' },
+                { value: 'E', text: 'E' },
+                { value: 'F', text: 'F' }
             ];
         } else if (fieldId === 'realAnswer2') {
             return [
