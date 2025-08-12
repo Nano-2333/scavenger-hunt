@@ -196,7 +196,7 @@ const level7 = {
     images: [
         {
             type: 'url',
-            content: 'src/img/muji.png',
+            content: 'src/img/MUJI.png',
             description: 'puzzle'
         }
     ],
