@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Hunt Engine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+
+
+        <!-- Puzzle Interface -->
+        <div id="puzzle-screen" class="screen active">
+                                    <header class="puzzle-header">
+                            <div class="level-info">
+                                <span class="level-badge">Level <span id="current-level">1</span></span>
+                                <span class="progress">Progress: <span id="progress-text">1/3</span></span>
+                            </div>
+                            <div class="nav-box">
+                                <span>Nav:</span>
+                                <input type="number" id="nav-task" placeholder="Task #" min="1" max="22">
+                                <input type="password" id="nav-password" placeholder="Password">
+                                <button id="nav-submit" class="btn btn-secondary">Go</button>
+                            </div>
+                        </header>
+
+            <main class="puzzle-content">
+                <!-- Story Section -->
+                <div class="story-section">
+                    <h2 id="story-title">Loading...</h2>
+                    <p id="story-text">Loading story...</p>
+                </div>
+
+                <!-- Image Section -->
+                <div class="image-section">
+                    <h3>Visual Clues</h3>
+                    <div id="image-container" class="image-container">
+                        <!-- Images will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Puzzle Section -->
+                <div class="puzzle-section">
+                    <h3>Solve the Puzzle</h3>
+                    <div id="puzzle-container" class="puzzle-container">
+                        <!-- Puzzle interface will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="navigation-section">
+                    <button id="prev-level" class="btn btn-secondary" style="display: none;">← Previous</button>
+                    <button id="next-level" class="btn btn-primary" style="display: none;">Next →</button>
+                </div>
+            </main>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="puzzle-engine.js"></script>
+    <script src="puzzles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
