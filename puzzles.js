@@ -672,7 +672,7 @@ const level22 = {
 // Level 23: End Screen
 const level23 = {
     title: "Keep being yourself",
-    story: "Keep... being yourself. You hear someone say. Memories, present, future. No one knows. But you have made all the right choices. You have made it to the end. You have made it to the end. Maybe, you can take your memories, and keep going forward. Im proud of you.",
+    story: "Keep... being yourself. You hear someone say. Memories, present, future. No one knows. But you have made all the right choices. You have made it to the end. You have made it to the end. Maybe, you can take your memories, and keep going forward. Im proud of you. But where did it start anyways?",
     images: [
         {
             type: 'emoji',
